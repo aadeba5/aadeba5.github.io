@@ -1,24 +1,46 @@
 <!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
-<head>
-  <h1>Amusa S Adebayo</h1>
-  <h2>Asst. Prof. PHarm. SCi</h2>
+  <title>CSS Stylesheets with Relative Paths</title>
 
-
-  </head>
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
 <body>
 
+  <header>
+    <h1>BIOGRAPHY</h1>
+  </header>
 
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Amusa S. Adebayo, PhD, MSHI</h2>
+        <img id="bio-image" src="https://placehold.it/200x200" alt="Amusa Adebayo">
+      </section>
+      <p>Welcome to my Bio page. I am a Professor of Pharmaceutical Sciences with focus on Pharmaceutics and Pharmacokinetics. <p>I obtained his BPharm, MSc and MBA degrees from the Obafemi Awolowo University, Ile-Ife in 1989, 1995 and 1999 respectively. I obtained my PhD degree from the University of Ibadan in 2001 and my Masters’ degree in Health Informatics at the University of Illinois, Chicago in May, 2020.</p>  
+        I have worked with the Sullivan University College of Pharmacy, Louisville, Kentucky (2018-2019), the Roosevelt University College of Pharmacy (2011-2018), University of the West Indies, Trinidad & Tobago (2010-2011), University of Technology, Jamaica (2002-2009) and the Obafemi Awolowo University, Nigeria (1992 -2002).  Until recently, my clinical affiliation was with the IV Infusion Department of MACRx Long-Term Care Pharmacy, Mount Prospect, Illinois, USA.
+        <p>My research interests include: 1. dosage form design, bioavailability/bioequivalence & pharmacokinetic studies; 2. application of biopharmaceutics and pharmacokinetics principles in rational therapy of pediatric & geriatric patient populations through simulations and kinetic modeling; and 3. application of smart biomaterials and pharmacokinetics principles in chronopharmaceutics of time-cyclic and physiologic-cyclic conditions/disorders; and more recently, application of Information Technology, specifically Artificial Intelligence & Machine Learning, to Pharmaceutical Research & Development. Let’s begin the exciting journey of understanding the behind the scene of making pharmaceuticals</p>
+        </a></p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">pharmplus246@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">https://github.com/aadeba5</a></li>
+        <li><strong>Github:</strong> <a href="#">https://www.linkedin.com/in/amusa-sarafadeen-adebayo-00309636/</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
 
 </body>
 
-</html><a href="LinkedIn"></a>
-
-<table>
-
-  
-</table>
+</html>
